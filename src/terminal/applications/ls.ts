@@ -20,6 +20,7 @@ export default function ls(
     let out = "\n";
     const files = fileSystem.getChildren(path.p);
     for (const f of files) {
+      if (f.name === "title") continue;
       out += `${f.name}\n`;
     }
     print(out);

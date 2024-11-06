@@ -18,3 +18,11 @@
 .collapse-btn[collapsed="false"] + .collapse-body p {
   transition: padding 0.3s;
 }
+
+.collapse-btn[collapsed="true"] {
+  background-color: brown;  /* Color when collapsed */
+}
+
+.collapse-btn[collapsed="false"] {
+  background-color: burlywood;  /* Color when expanded */
+}

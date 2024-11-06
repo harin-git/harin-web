@@ -3,6 +3,6 @@
 
 
 # Contact
-## Reach out on*LinkedIn*
+## Reach out
 
-https://www.linkedin.com/in/edwardhinrichsen/
+hlee@cbs.mpg.de

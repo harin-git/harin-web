@@ -13,6 +13,10 @@
   font-family: chill;
   src: url("/fonts/chill.woff");
 }
+@font-face {
+  font-family: "Garamond";
+  src: url("/fonts/Garamond.woff") format("woff");
+}
 
 * {
   margin: 0;
@@ -23,7 +27,7 @@ html,
 body {
   overflow-x: hidden;
   background-color: #f6d4b1;
-  font-family: "chill", sans-serif;
+  font-family: "Garamond", serif;
   font-size: 18px;
   -webkit-text-size-adjust: 100%;
 }
@@ -217,9 +221,9 @@ p {
 
 .image * {
   box-sizing: border-box;
-  width: clamp(0px, 95vw, 1200px);
-
-  box-shadow: 1px 1px 0px #f6d4b1, 6px 6px 0px rgba(82, 82, 82, 0.25);
+  width: clamp(0px, 95vw, 500px);
+  height: auto;
+  object-fit: contain;
 }
 
 main {
@@ -266,19 +270,15 @@ footer {
 
 a {
   display: inline-block;
-  color: inherit;
+  color: brown;
   text-decoration-style: solid;
   text-decoration-thickness: 2px;
+  text-decoration: none;
   transition: all 0.3s;
 }
-a:hover {
-  transform: scale(1.1);
-  box-shadow: 1px 1px 0px #f6d4b1, 4px 4px 0px rgba(82, 82, 82, 0.25);
-}
 
-a:active {
-  transform: scale(1);
-  box-shadow: 1px 1px 0px #f6d4b1, 3px 3px 0px rgba(82, 82, 82, 0.4);
+a:hover {
+  color: orange;
 }
 
 .btn {

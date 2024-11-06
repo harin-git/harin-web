@@ -73,18 +73,10 @@ export default function Terminal(screenTextEngine: {
     ) {
       textarea.readOnly = false;
       textarea.focus();
-
-      if (e.key.length === 1) {
-        textarea.value =
-          textarea.value.slice(0, lastSelection) +
-          e.key +
-          textarea.value.slice(lastSelection);
-        lastSelection += 1;
-        onInput();
-      }
       textarea.setSelectionRange(lastSelection, lastSelection);
     }
-    // textarea
+
+    // Only handle Enter key
     if (e.key === "Enter") {
       screenTextEngine.freezeInput();
       bash.input(textarea.value);

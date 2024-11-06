@@ -1,16 +1,14 @@
-!(/images/ed-title.png?aspect=2&noflow=true&width=1.33)
+!(/images/harin-title2.png?aspect=2&noflow=true&width=1.33)
 
 
 ##   Hi there, 
 
-#  *I'm Ed H*
+#  *I'm Harin*
 
-##   • Software Engineer
-##   • Digital Designer
-
-
-
+##   Cognitive Scientist
+###   ~/Max_Planck_Institute/
+###   Leipzig/Germany
 
 
-### Welcome to ED-Linux 1.0 LTS
+
 ### →→ Scroll or type "help" to get started

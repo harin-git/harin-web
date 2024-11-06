@@ -7,6 +7,8 @@ import mkdir from "./mkdir";
 import pwd from "./pwd";
 import show from "./show";
 import touch from "./touch";
+import play from "./play";
+import cv from "./cv";
 // @ts-ignore
 import helpMD from "./assets/help.md?raw";
 
@@ -27,6 +29,8 @@ export default function Applications(
     ls: ls(print, path),
     cd: cd(print, path),
     show: show(print, path),
+    play: play(print, path),
+    cv: cv(print, path),
     echo: echo(print, path),
     pwd: pwd(print, path),
     mkdir: mkdir(print, path),
