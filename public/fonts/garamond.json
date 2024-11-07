@@ -1,6 +1,6 @@
 {
   "glyphs": {},
-  "familyName": "Garamond",
+  "familyName": "garamond",
   "ascender": 800,
   "descender": -200,
   "underlinePosition": -100,
@@ -15,7 +15,7 @@
   "original_font_information": {
     "format": 0,
     "copyright": "",
-    "fontFamily": "Garamond",
+    "fontFamily": "garamond",
     "fontSubfamily": "Regular"
   }
 } 

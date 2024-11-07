@@ -14,8 +14,8 @@
   src: url("/fonts/chill.woff");
 }
 @font-face {
-  font-family: "Garamond";
-  src: url("/fonts/Garamond.woff") format("woff");
+  font-family: "garamond";
+  src: url("/fonts/garamond.woff") format("woff");
 }
 
 * {
@@ -27,7 +27,7 @@ html,
 body {
   overflow-x: hidden;
   background-color: #f6d4b1;
-  font-family: "Garamond", serif;
+  font-family: "Gill Sans", sans-serif;
   font-size: 18px;
   -webkit-text-size-adjust: 100%;
 }
