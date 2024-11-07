@@ -3585,10 +3585,24 @@ Kernel p̴̢̨̦͎a̴̢̨̦n̴̢̨̦i̴̢̨̦c̴̢̨̦`,`
 FATAL ERROR: SYSTEM HALTED`];let r=0;const o=setInterval(()=>{r<i.length?(s(i[r]),r++):clearInterval(o)},500)}else s(`
 Missing required flags. Use -rf for recursive force delete.`)},docs:{name:"rm",short:"remove files or directories",long:"Use with caution - removes files and directories"}}),Bv=s=>({app:()=>(s(`
 Do you really want to watch porn on this tiny retro computer? [Y/N]`),t=>{t.toLowerCase()==="y"?s(`
-You naughty naughty
-Go somewhere else you loser`):t.toLowerCase()==="n"&&s(`
-Good lord
-Some faith in humanity is restored`)}),docs:{name:"porn",short:"don't even try it"}}),zv=`
+
+            ( . Y . )
+             )     (
+            (       )
+
+        You naughty naughty 
+        Go somewhere else you loser`):t.toLowerCase()==="n"&&s(`
+
+        Good lord
+Some faith in humanity is restored
+              +
+             /_\\
+            /-|-\\
+           /--|--\\
+              |
+              +
+
+        Bless you child`)}),docs:{name:"porn",short:"don't even try it"}}),zv=`
 
 
 
