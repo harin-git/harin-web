@@ -383,3 +383,30 @@ a:hover {
     display: block;
     margin: 16px auto;
 }
+
+/* News section specific styles */
+.news-list {
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.news-list li {
+  margin-bottom: 1rem;
+  padding-right: 10px;
+}
+
+.news-list .date {
+  /* font-weight: bold; */
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .news-list {
+    padding-left: 15px;
+  }
+  
+  .news-list li {
+    font-size: 0.9em;
+  }
+}
