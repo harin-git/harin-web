@@ -5,11 +5,16 @@ import checker from "vite-plugin-checker";
 export default defineConfig({
   plugins: [checker({ typescript: true })],
   worker: {},
-  base: "./",
+  base: "",
   build: {
     sourcemap: true,
     outDir: "dist",
     assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
   },
   server: {
     open: true,
