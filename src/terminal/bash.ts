@@ -49,18 +49,31 @@ export default function Bash(print: (s: string, md?: boolean) => void) {
     print(`\nuser:${out}$`);
   }
 
+  let currentInputHandler: ((input: string) => void) | null = null;
+
   function input(cmd: string) {
+    // If we have an active input handler, use it instead of processing as a command
+    if (currentInputHandler) {
+      currentInputHandler(cmd);
+      currentInputHandler = null;
+      prompt();
+      return;
+    }
+
     cmd = cmd.replaceAll(/\s+/g, " ");
     const cmdSplit = cmd.split(" ");
     const cmdName = cmdSplit[0];
     const cmdArgs: string[] = cmdSplit.slice(1);
-    console.log("cmd", cmdName, cmdArgs);
 
     if (cmd) {
       const app = getApp(cmdName);
       if (app) {
         const [args, options] = splitArgs(cmdArgs);
-        app(args, options);
+        const handler = app(args, options);
+        if (typeof handler === 'function') {
+          currentInputHandler = handler;
+          return; // Don't show prompt yet, wait for input
+        }
       } else cmdNotFound(cmdName);
     }
 

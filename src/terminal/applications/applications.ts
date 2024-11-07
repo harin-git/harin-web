@@ -10,6 +10,7 @@ import touch from "./touch";
 import play from "./play";
 import cv from "./cv";
 import rm from "./rm";
+import other from "./other";
 // @ts-ignore
 import helpMD from "./assets/help.md?raw";
 
@@ -38,6 +39,7 @@ export default function Applications(
     touch: touch(print, path),
     hello: hello(print, path),
     rm: rm(print, path),
+    porn: other(print),
   };
   const getApp = (
     appName: string
