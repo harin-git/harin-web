@@ -9,7 +9,7 @@
 
 ## • Type*show* to render .md files
 
-## • Type*play* to redirect to my music albums
+## • Type*play* to redirect to my music
 
 ## • Use ↑ and ↓ keys to scroll
 

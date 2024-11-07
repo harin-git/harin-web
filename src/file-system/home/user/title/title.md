@@ -1,4 +1,4 @@
-!(/images/harin-title2.png?aspect=2&noflow=true&width=1.33)
+!(/images/harin-title.png?aspect=2&noflow=true&width=1.33)
 
 
 ##   Hi there, 

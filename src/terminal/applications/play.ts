@@ -39,7 +39,7 @@ const play = (print: (s: string, md?: boolean) => void, path: FileSystemType) =>
       if (selection in MUSIC_SERVICES) {
         const service = MUSIC_SERVICES[selection as MusicServiceKey];
         window.open(service.url, '_blank');
-        print(`Opening ${service.name}...`, false);
+        print(`\nOpening ${service.name}...`, false);
       } else {
         print('\nInvalid selection. \nPlease choose a number between 1 and 4.', false);
       }

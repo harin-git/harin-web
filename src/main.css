@@ -347,3 +347,35 @@ a:hover {
   color: #f6d4b1;
   border: #f6d4b1 solid 1px;
 }
+
+/* Add these collapse-specific styles before the footer styles */
+.collapse-body {
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+    width: clamp(0px, 95vw, 680px);
+    margin: auto;
+}
+
+.collapse-btn[collapsed="false"] + .collapse-body {
+    max-height: 2000px; /* Adjust based on your content */
+    transition: max-height 0.8s ease-in;
+}
+
+/* Handle iframe specifically */
+.collapse-body iframe {
+    display: none;
+    margin: 16px auto;
+    width: 100%;
+    max-width: 720px;
+}
+
+.collapse-btn[collapsed="false"] + .collapse-body iframe {
+    display: block;
+}
+
+/* Ensure collapse button is centered */
+.collapse-btn {
+    display: block;
+    margin: 16px auto;
+}
