@@ -12,4 +12,6 @@ Why do some songs just click with us while others don't? Or why certain painting
 
 Truth is, we're still trying to figure out exactly how our tastes work, and whether liking one thing means we'll like something similar in a different area.
 
-By analysing real-world behavioural patterns and asking people what they like across multiple domains, I try to understand how our environment and experiences shape our tastes, and explore whether our aesthetic preferences remain consistent across different cultural categories like music, colour, and art.
+By analysing real-world behavioural patterns and conducting cross-cultural surveys about preferences across multiple domains, I investigate how our environment and experiences shape our cultural tastes. 
+
+For instance, during my research internship at Deezer, I analysed the listening patterns of over 2.5 million users across France, Brazil, and Germany, revealing how a city's demographic composition and size influence the diversity of its residents' musical tastes.

@@ -8,8 +8,8 @@
 ### • Network, Online Experiments
 !(/images/cultural_spread.png?aspect=1.8181)
 
-The way ideas and information spread through society is rather fascinating. From playground crazes to viral tiktok trends, patterns of contagion follow similar rules. Whether between mates at the pub or across continents through social media, we can map how new behaviours emerge and propagate through communities.
+From gossips about your peers to viral tiktoks that spread across society, patterns of contagion follow similar rules. Similarly, by knowing which musical trends catch on 'where' and 'when', we can make probabilistic estimates about the possible musical connections between places, and ultimately predict the patterns of spread.
 
-Thanks to groundbreaking new tools like *PsyNet*, we can now run online experiments at scale that were not possible before. 
+Thanks to groundbreaking new tools like *PsyNet*, we can also now conceptualise these scenarios in a experimental setting. Picture an online version of the Chinese whispers game, where we can track exactly how messages change as they pass along between people. We can even create miniature virtual societies to observe how manipulating the breadth of interactions between people might shape group behaviour. 
 
-Picture an online version of Chinese whispers, we can track exactly how messages change as they pass along. We can even create miniature virtual societies to observe how people's interactions shape group behaviour. By combining these clever experiments with real-world data, we're beginning to understand how ideas and cultural trends catch on and spread.
+By combining these clever experiments with real-world data, we're beginning to understand how ideas and cultural trends catch on and spread.
