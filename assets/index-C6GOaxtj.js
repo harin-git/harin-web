@@ -3349,10 +3349,11 @@ void main()
 !(/images/harin-about.png?aspect=1.8181)
 ## *Harin Lee*
 
-I'm a PhD candidate at the Max Planck Institute for Human Cognitive and Brain Sciences under the supervision of Marc Schönwiesner and a visiting researcher at the Computational Auditory Perception Group led by Nori Jacoby.
+By day, I'm exploring the wonders of human cognition as a PhD candidate at the Max Planck Institute for Human Cognitive and Brain Sciences, where I have the privilege of working with the brilliant Marc Schönwiesner. When I'm not there, you'll catch me at the Computational Auditory Perception Group, running large-scale cross-cultural experiments with the incomparable Nori Jacoby. Behind the scenes of my formal PhD training, I've been receiving stellar guidance from Minsu Park who is based at NYU Abu Dhabi.
 
-My interests centres on cross-cultural diversity in music and the methods we can apply to quantify its characteristics. I combine datasets of music around the world with large-scale behavioural experiments to tackle questions about inter-individual and cross-cultural differences in music cognition. I also work on computational modelling and network analysis to study how music spreads among individuals through contagion but also across cultures through cultural diffusion.
+Why does K-pop sounds so different from Brazilian samba? Or why certain melodies feel familiar across continents? In our increasingly connected world, it's fascinating to see how some cultural elements remain distinctly local, like musical fingerprints of identity, while others flow more freely across borders, evolving into new forms and creating global fusions.
 
+My research aims to decode various aspects of cultural patterns. From the aesthetic choices we make as individuals to how culture evolves and diffuses across cities and countries. To achieve this, I combine massive datasets of music all around the world, conduct large cross-cultural behavioural experiments, and employ computational models.
 
 Check out my research at ~/research
 Check out my cv at ~/cv
@@ -3491,13 +3492,14 @@ Leipzig, Germany
 ### • Big data, Machine Learning
 !(/images/global_music_culture.png?aspect=1.8181)
 
-How has popular music evolved since the invention of sound recording? Have modern technology and the internet fundamentally changed the way we consume and share music? 
+How has popular music evolved over time and across spaces? Have modern technology and the internet fundamentally changed the way we consume and share music? 
 
-Until recently, these questions remained largely unanswered due to limited data and analytical tools. The digital age and advances in machine learning have changed everything. Opening up exciting new possibilities for exploration.
+Until recently, these questions remained largely unanswered due to limited data and analytical tools. The digital age and advances in machine learning have changed everything, opening up exciting new avenues for scientific research on music.
 
-I've assembled an extensive dataset comprising over 250,000 popular songs from around the globe, spanning from the 1950s to the present day. This collection is complemented by a massive ongoing radio monitoring project covering 220 countries, which has already accumulated tens of terabytes of audio data of spoken conversations and music. Applying cutting-edge machine learning tools, including music information retrieval, natural language processing, and social network analysis, I empirically quantify musical characteristics and their spreading dynamics.
+Throughout my PhD, I've assembled an extensive dataset comprising some 250,000 popular songs from around the globe, spanning from the 1950s to the present day. This collection is complemented by a massive ongoing radio monitoring project covering 220 countries, which has already accumulated tens of terabytes of audio data of spoken conversations and music. 
 
-Together, these resources constitute the most extensive collection ever assembled for a data-driven understanding of the history of popular music.
+Applying cutting-edge machine learning tools to this vast library, including music information retrieval, natural language processing, and social network analysis,
+my collaborators and I sought to characterise the global history of popular music through a data-driven approach.
 `,wv=`
 
 
@@ -3508,11 +3510,11 @@ Together, these resources constitute the most extensive collection ever assemble
 ### • Network, Online Experiments
 !(/images/cultural_spread.png?aspect=1.8181)
 
-The way ideas and information spread through society is rather fascinating. From playground crazes to viral tiktok trends, patterns of contagion follow similar rules. Whether between mates at the pub or across continents through social media, we can map how new behaviours emerge and propagate through communities.
+From gossips about your peers to viral tiktoks that spread across society, patterns of contagion follow similar rules. Similarly, by knowing which musical trends catch on 'where' and 'when', we can make probabilistic estimates about the possible musical connections between places, and ultimately predict the patterns of spread.
 
-Thanks to groundbreaking new tools like *PsyNet*, we can now run online experiments at scale that were not possible before. 
+Thanks to groundbreaking new tools like *PsyNet*, we can also now conceptualise these scenarios in a experimental setting. Picture an online version of the Chinese whispers game, where we can track exactly how messages change as they pass along between people. We can even create miniature virtual societies to observe how manipulating the breadth of interactions between people might shape group behaviour. 
 
-Picture an online version of Chinese whispers, we can track exactly how messages change as they pass along. We can even create miniature virtual societies to observe how people's interactions shape group behaviour. By combining these clever experiments with real-world data, we're beginning to understand how ideas and cultural trends catch on and spread.
+By combining these clever experiments with real-world data, we're beginning to understand how ideas and cultural trends catch on and spread.
 `,Sv=`
 
 
@@ -3527,7 +3529,9 @@ Why do some songs just click with us while others don't? Or why certain painting
 
 Truth is, we're still trying to figure out exactly how our tastes work, and whether liking one thing means we'll like something similar in a different area.
 
-By analysing real-world behavioural patterns and asking people what they like across multiple domains, I try to understand how our environment and experiences shape our tastes, and explore whether our aesthetic preferences remain consistent across different cultural categories like music, colour, and art.
+By analysing real-world behavioural patterns and conducting cross-cultural surveys about preferences across multiple domains, I investigate how our environment and experiences shape our cultural tastes. 
+
+For instance, during my research internship at Deezer, I analysed the listening patterns of over 2.5 million users across France, Brazil, and Germany, revealing how a city's demographic composition and size influence the diversity of its residents' musical tastes.
 `,ir={name:"/",children:[{name:"bin",children:[]},{name:"dev",children:[]},{name:"lib64",children:[]},{name:"media",children:[]}]};function Zc(s){for(const e in s){const t=e.split("/").slice(2);let n=ir;t.forEach((i,r,o)=>{if(r===o.length-1)n.children.push({name:i,data:s[e]});else{let l=n.children.find(c=>c.name===i);l||(l={name:i,children:[]},n.children.push(l)),n=l}})}}Zc(Object.assign({"../file-system/home/user/about/about.md":xv,"../file-system/home/user/contact/contact.md":vv,"../file-system/home/user/cv/education.md":yv,"../file-system/home/user/cv/experience.md":_v,"../file-system/home/user/cv/publication.md":Mv,"../file-system/home/user/research/01_global.md":bv,"../file-system/home/user/research/02_spread.md":wv,"../file-system/home/user/research/03_taste.md":Sv,"../file-system/home/user/title/title.md":Yc}));Zc(Object.assign({}));console.log(ir);function Fi(){function s(o){const a=o.split("/");return a.length>0&&a.at(-1)===""&&a.pop(),a}function e(o,a){for(const l of a)switch(l){case"":o=[ir];break;case"..":o.length>1&&o.pop();break;case"~":o=n();break;case".":break;default:const c=o.at(-1);if(!c||!("children"in c))return;const u=c.children.find(h=>h.name===l);if(!u)return;o.push(u);break}return o}function t(o){return o[o.length-1].children}function n(){const o=ir.children.find(l=>l.name==="home"),a=o.children.find(l=>l.name==="user");return[ir,o,a]}function i(o,a){return e([...o],s(a))}function r(o,a,l){const c=s(a),u=c.pop();if(u===void 0)return"bad_args";const h=e([...o],c),d=h==null?void 0:h.at(-1);return!d||!("children"in d)?"bad_path":d.children.find(f=>f.name===u)?"file_exists":(d.children.push(l==="folder"?{name:u,children:[]}:{name:u,data:""}),"ok")}return{getChildren:t,goHome:n,goto:i,make:r}}function Tv(s,e){const t=Fi(),n={name:"cd",short:"change directory",long:""};return{docs:n,app:(r,o)=>{var l;if(o.find(c=>c==="-h"||c==="-help")){s(`
 ${n.name} – ${n.short}`);return}if(r.length===0||r[0]===""){e.p=t.goHome();return}const a=t.goto(e.p,r[0]);if(console.log(a),!a){s(`
 No such file or directory`);return}if(!("children"in a.at(-1))){s(`
