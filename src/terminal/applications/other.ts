@@ -5,9 +5,24 @@ const porn = (print: (s: string, md?: boolean) => void) => {
       
       const handleInput = (input: string) => {
         if (input.toLowerCase() === "y") {
-          print("\nYou naughty naughty\nGo somewhere else you loser");
+          print(`\n
+            ( . Y . )
+             )     (
+            (       )
+
+        You naughty naughty 
+        Go somewhere else you loser`);
         } else if (input.toLowerCase() === "n") {
-          print("\nGood lord\nSome faith in humanity is restored");
+          print(`\n
+        Good lord\nSome faith in humanity is restored
+              +
+             /_\\
+            /-|-\\
+           /--|--\\
+              |
+              +
+
+        Bless you child`);
         }
       };
 
