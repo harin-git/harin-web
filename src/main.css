@@ -275,6 +275,10 @@ a {
   text-decoration-thickness: 2px;
   text-decoration: none;
   transition: all 0.3s;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 a:hover {
