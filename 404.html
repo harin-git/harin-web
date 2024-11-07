@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Harin Lee – Personal Website</title>
+    <meta
+      name="description"
+      content="Harin Lee is a PhD candidate in Cognitive Science at Max Planck Institute for Human Cognitive and Brain Sciences. He's research interests include cross-cultural music cognition, cultural evolution, and computational modelling."
+    />
+
+    <link rel="icon" type="image/png" href="/icon/32x32.png" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/180x180.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Harin Lee – Personal Website"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="theme-color" content="#f6d4b1" />
+
+    <meta property="og:title" content="Harin Lee – Personal Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://harinlee.info/" />
+    <meta property="og:image" content="https://harinlee.info/icon/og-img1.png" />
+    <meta
+      name="og:description"
+      content="Harin Lee is a PhD candidate in Cognitive Science at Max Planck Institute for Human Cognitive and Brain Sciences. He's research interests include cross-cultural music cognition, cultural evolution, and computational modelling."
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="module" crossorigin src="/assets/index-D0u8Le6m.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DoqBeO4N.css">
+  </head>
+
+  <body>
+    <div id="home"></div>
+
+    <canvas class="webgl"></canvas>
+
+    <div id="hero-backup">
+      <h3>Hi there, I’m</h3>
+      <h1>Harin</h1>
+      <ul>
+        <li>Cognitive Scientist</li>
+        <li>~/Max_Planck_Institute/</li>
+        <li>Leipzig/Germany</li>
+      </ul>
+    </div>
+
+    <nav>
+      <div class="menu-btn">
+        <button class="btn" onclick="toggleMenu()">
+          <svg width="16" height="16">
+            <rect class="st0" width="16" height="3.2" />
+            <rect y="6.4" class="st0" width="16" height="3.2" />
+            <rect y="12.8" class="st0" width="16" height="3.2" />
+          </svg>
+        </button>
+        <div style="display: flex">
+          <a
+            class="btn"
+            href="https://scholar.google.com/citations?user=sNyJrSQAAAAJ&hl=en"
+            target="_blank"
+            style="font-size: 0.75rem; padding: 8px; padding-left: 10px"
+          >
+            <svg width="16" height="16">
+              <path d="M8,3L2,7l6,3l6-3L8,3z M4,8v3l4,2l4-2V8l-4,2L4,8z" 
+              fill="currentColor"/>
+            </svg>
+            G-Scholar
+          </a>
+          <a
+            class="btn"
+            href="https://harinlee.info/cv/cv.pdf"
+            target="_blank"
+            style="font-size: 0.75rem; padding: 8px; padding-left: 10px"
+          >
+            <svg width="16" height="16">
+              <path d="M13,1H3C2.4,1,2,1.4,2,2v12c0,0.6,0.4,1,1,1h10c0.6,0,1-0.4,1-1V2C14,1.4,13.6,1,13,1z M12,13H4V3h8V13z"/>
+              <rect x="5" y="5" width="6" height="1"/>
+              <rect x="5" y="7" width="6" height="1"/>
+              <rect x="5" y="9" width="4" height="1"/>
+            </svg>
+            CV
+          </a>
+          <a
+            class="btn"
+            href="https://github.com/harin-git"
+            target="_blank"
+            style="font-size: 0.75rem; padding: 8px; padding-left: 10px"
+          >
+            <svg width="16" height="16">
+              <path
+                d="M10.6,12.9c0-1-0.3-1.6-0.7-2c2.4-0.3,4.9-1.1,4.9-5.2c0-1.1-0.4-2.1-1.1-2.9c0.1-0.3,0.5-1.3-0.1-2.8
+            c0,0-0.9-0.3-3,1.1c-1.7-0.5-3.6-0.5-5.4,0c-2-1.4-3-1.1-3-1.1C1.6,1.4,2,2.5,2.1,2.8C1.4,3.5,1,4.6,1,5.6c0,4.1,2.5,5,4.9,5.3
+            c-0.4,0.4-0.6,0.9-0.7,1.4c-0.6,0.3-2.2,0.7-3.1-0.9c0,0-0.6-1-1.6-1.1c0,0-1.1,0-0.1,0.7c0,0,0.7,0.3,1.1,1.6c0,0,0.6,2.1,3.6,1.5
+            c0,0.9,0,1.8,0,1.8h5.3C10.6,15.9,10.6,14.4,10.6,12.9z"
+              />
+            </svg>
+            Git
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-body" onclick="closeMenu()">
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#aboutMe" onclick="closeMenu()">About</a>
+        <a href="#research" onclick="closeMenu()">Research</a>
+        <a href="#news" onclick="closeMenu()">News</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+      </div>
+
+      <div id="tip-scroll">Scroll &#8595;</div>
+    </nav>
+
+    <main>
+      <section>
+        <h1 id="aboutMe">HARIN LEE</h1>
+        <div id="about-content"></div>
+      </section>
+
+      <section>
+        <h1 id="research">RESEARCH</h1><br>
+        <div id="research-content"></div>
+      </section>
+
+      <section>
+        <h1 id="news">NEWS</h1>
+        <div id="news-content"></div>
+      </section>
+
+      <section>
+        <h1 id="skills">SKILLS</h1>
+        <ul class="skills">
+          <li>R</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>AWS</li>
+          <li>Docker</li>
+          <li>Big Query</li>
+          <li>Causal Inference</li>
+          <li>NLP</li>
+          <li>Machine Learning</li>
+          <li>Music Information Retrieval</li>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>MaxMSP</li>
+          <li>Photoshop</li>
+          <li>High-Performance Computing</li>
+          <li>Ableton Live</li>
+          <li>Illustrator</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <div id="skills-content"></div>
+      </section>
+
+      <section>
+        <h1 id="contact">Contact</h1>
+        <p style="text-align: center">
+          <!-- <img src="/src/img/email.webp" width="50" height="50"><br> -->
+          <a href="mailto:hlee@cbs.mpg.de"
+            ><b>hlee[at]cbs.mpg.de</b></a
+          >
+        </p>
+      </section>
+    </main>
+
+    <input type="text" id="textarea" readonly />
+    <div id="loading">
+      <h2>Booting...</h2>
+      <div id="loading-bar">
+        <div id="loading-bar-progress"></div>
+      </div>
+      <div id="loading-items">Starting...</div>
+    </div>
+    <footer>
+      <div>This is forked from an incredible website template developed & designed by Ed Hinrichsen (https://github.com/edhinrichsen/retro-computer-website)</div>
+      <div>COPYRIGHT © 2022-2024 Harin Lee.</div>
+    </footer>
+    <script>
+      function closeMenu() {
+        document.getElementsByTagName("nav")[0].classList.remove(["active"]);
+      }
+
+      function toggleMenu() {
+        const nav = document.getElementsByTagName("nav")[0];
+        if (nav.classList.contains("active")) {
+          nav.classList.remove(["active"]);
+        } else {
+          nav.classList.add("active");
+        }
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2FWLS7MCE3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2FWLS7MCE3");
+    </script>
+    <script>
+      function loadContent() {
+        const contentSections = [
+          { file: 'pages/news.html', target: 'news-content' },
+          { file: 'pages/research.html', target: 'research-content' },
+          { file: 'pages/about.html', target: 'about-content' }
+        ];
+
+        contentSections.forEach(section => {
+          fetch(section.file)
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById(section.target).innerHTML = data;
+            })
+            .catch(error => console.error(`Error loading ${section.file}:`, error));
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', loadContent);
+    </script>
+  </body>
+</html>

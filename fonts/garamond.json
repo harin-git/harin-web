@@ -1,0 +1,21 @@
+{
+  "glyphs": {},
+  "familyName": "garamond",
+  "ascender": 800,
+  "descender": -200,
+  "underlinePosition": -100,
+  "underlineThickness": 50,
+  "boundingBox": {
+    "yMin": -200,
+    "xMin": -50,
+    "yMax": 800,
+    "xMax": 1000
+  },
+  "resolution": 1000,
+  "original_font_information": {
+    "format": 0,
+    "copyright": "",
+    "fontFamily": "garamond",
+    "fontSubfamily": "Regular"
+  }
+} 
