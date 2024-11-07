@@ -3492,7 +3492,7 @@ Leipzig, Germany
 ### • Big data, Machine Learning
 !(/images/global_music_culture.png?aspect=1.8181)
 
-How has popular music evolved over time and across spaces? Have modern technology and the internet fundamentally changed the way we consume and share music? 
+How has popular music evolved across time and space? Have modern technology and the internet fundamentally changed the way we consume and share music? 
 
 Until recently, these questions remained largely unanswered due to limited data and analytical tools. The digital age and advances in machine learning have changed everything, opening up exciting new avenues for scientific research on music.
 
@@ -3510,9 +3510,9 @@ my collaborators and I sought to characterise the global history of popular musi
 ### • Network, Online Experiments
 !(/images/cultural_spread.png?aspect=1.8181)
 
-From gossips about your peers to viral tiktoks that spread across society, patterns of contagion follow similar rules. Similarly, by knowing which musical trends catch on 'where' and 'when', we can make probabilistic estimates about the possible musical connections between places, and ultimately predict the patterns of spread.
+From gossips about your peers to viral tiktoks that spread across society, patterns of contagion follow similar rules. As such, by knowing which musical trends catch on 'where' and 'when', we can make probabilistic estimates about the possible musical connections between places, and ultimately predict the patterns of spread.
 
-Thanks to groundbreaking new tools like *PsyNet*, we can also now conceptualise these scenarios in a experimental setting. Picture an online version of the Chinese whispers game, where we can track exactly how messages change as they pass along between people. We can even create miniature virtual societies to observe how manipulating the breadth of interactions between people might shape group behaviour. 
+Thanks to groundbreaking new tools like *PsyNet*, we can also now conceptualise these scenarios in an experimental setting. Picture an online version of the Chinese whispers game, where we can track exactly how messages change as they pass along between people. We can even create miniature virtual societies to observe how manipulating the breadth of interactions between people might shape group behaviour. 
 
 By combining these clever experiments with real-world data, we're beginning to understand how ideas and cultural trends catch on and spread.
 `,Sv=`
@@ -3529,7 +3529,7 @@ Why do some songs just click with us while others don't? Or why certain painting
 
 Truth is, we're still trying to figure out exactly how our tastes work, and whether liking one thing means we'll like something similar in a different area.
 
-By analysing real-world behavioural patterns and conducting cross-cultural surveys about preferences across multiple domains, I investigate how our environment and experiences shape our cultural tastes. 
+Through analysing millions of behavioural patterns in the real world and conducting cross-cultural surveys about preferences across multiple domains, I seek to understand how our environment and experiences shape our cultural tastes.
 
 For instance, during my research internship at Deezer, I analysed the listening patterns of over 2.5 million users across France, Brazil, and Germany, revealing how a city's demographic composition and size influence the diversity of its residents' musical tastes.
 `,ir={name:"/",children:[{name:"bin",children:[]},{name:"dev",children:[]},{name:"lib64",children:[]},{name:"media",children:[]}]};function Zc(s){for(const e in s){const t=e.split("/").slice(2);let n=ir;t.forEach((i,r,o)=>{if(r===o.length-1)n.children.push({name:i,data:s[e]});else{let l=n.children.find(c=>c.name===i);l||(l={name:i,children:[]},n.children.push(l)),n=l}})}}Zc(Object.assign({"../file-system/home/user/about/about.md":xv,"../file-system/home/user/contact/contact.md":vv,"../file-system/home/user/cv/education.md":yv,"../file-system/home/user/cv/experience.md":_v,"../file-system/home/user/cv/publication.md":Mv,"../file-system/home/user/research/01_global.md":bv,"../file-system/home/user/research/02_spread.md":wv,"../file-system/home/user/research/03_taste.md":Sv,"../file-system/home/user/title/title.md":Yc}));Zc(Object.assign({}));console.log(ir);function Fi(){function s(o){const a=o.split("/");return a.length>0&&a.at(-1)===""&&a.pop(),a}function e(o,a){for(const l of a)switch(l){case"":o=[ir];break;case"..":o.length>1&&o.pop();break;case"~":o=n();break;case".":break;default:const c=o.at(-1);if(!c||!("children"in c))return;const u=c.children.find(h=>h.name===l);if(!u)return;o.push(u);break}return o}function t(o){return o[o.length-1].children}function n(){const o=ir.children.find(l=>l.name==="home"),a=o.children.find(l=>l.name==="user");return[ir,o,a]}function i(o,a){return e([...o],s(a))}function r(o,a,l){const c=s(a),u=c.pop();if(u===void 0)return"bad_args";const h=e([...o],c),d=h==null?void 0:h.at(-1);return!d||!("children"in d)?"bad_path":d.children.find(f=>f.name===u)?"file_exists":(d.children.push(l==="folder"?{name:u,children:[]}:{name:u,data:""}),"ok")}return{getChildren:t,goHome:n,goto:i,make:r}}function Tv(s,e){const t=Fi(),n={name:"cd",short:"change directory",long:""};return{docs:n,app:(r,o)=>{var l;if(o.find(c=>c==="-h"||c==="-help")){s(`
