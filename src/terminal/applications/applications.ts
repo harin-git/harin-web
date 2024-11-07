@@ -9,6 +9,7 @@ import show from "./show";
 import touch from "./touch";
 import play from "./play";
 import cv from "./cv";
+import rm from "./rm";
 // @ts-ignore
 import helpMD from "./assets/help.md?raw";
 
@@ -36,6 +37,7 @@ export default function Applications(
     mkdir: mkdir(print, path),
     touch: touch(print, path),
     hello: hello(print, path),
+    rm: rm(print, path),
   };
   const getApp = (
     appName: string
