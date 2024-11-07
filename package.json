@@ -1,14 +1,14 @@
 {
   "author": {
-    "name": "Ed Hinrichsen",
-    "url": "https://www.edwardh.io"
+    "name": "Harin Lee",
+    "url": "https://www.harinlee.info"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edhinrichsen/retro-computer-website.git"
+    "url": "git+https://github.com/harin-git/harin-web.git"
   },
   "license": "MIT",
-  "name": "retro-computer-website",
+  "name": "harin-web",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
