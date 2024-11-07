@@ -8,7 +8,7 @@
 ### • Big data, Machine Learning
 !(/images/global_music_culture.png?aspect=1.8181)
 
-How has popular music evolved over time and across spaces? Have modern technology and the internet fundamentally changed the way we consume and share music? 
+How has popular music evolved across time and space? Have modern technology and the internet fundamentally changed the way we consume and share music? 
 
 Until recently, these questions remained largely unanswered due to limited data and analytical tools. The digital age and advances in machine learning have changed everything, opening up exciting new avenues for scientific research on music.
 
