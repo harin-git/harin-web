@@ -400,7 +400,7 @@ a:hover {
 }
 
 .news-list .date {
-  /* font-weight: bold; */
+  font-weight: bold;
   display: block;
   margin-bottom: 0.2rem;
   text-align: center;
