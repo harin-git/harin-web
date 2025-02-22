@@ -396,17 +396,24 @@ a:hover {
 }
 
 .news-list .date {
-  /* font-weight: bold; */
+  list-style-type: none;
   display: block;
   margin-bottom: 0.2rem;
 }
 
 @media (max-width: 768px) {
-  .news-list {
-    padding-left: 15px;
+  .skills,
+  p,
+  .news-list,
+  section {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    text-align: justify;
   }
   
   .news-list li {
     font-size: 0.9em;
   }
 }
+
