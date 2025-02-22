@@ -276,11 +276,9 @@ a {
   text-decoration: none;
   transition: all 0.3s;
   word-wrap: break-word;
-  word-break: break-all;
+  word-break: break-word;
   overflow-wrap: break-word;
   max-width: 100%;
-  white-space: pre-wrap;
-  line-height: 1.5;
 }
 
 a:hover {
