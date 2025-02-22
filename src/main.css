@@ -406,8 +406,8 @@ a:hover {
   p,
   .news-list,
   section {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
     text-align: justify;
   }
