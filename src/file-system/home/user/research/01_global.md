@@ -14,5 +14,4 @@ Until recently, these questions remained largely unanswered due to limited data 
 
 Throughout my PhD, I've assembled an extensive dataset comprising some 250,000 popular songs from around the globe, spanning from the 1950s to the present day. This collection is complemented by a massive ongoing radio monitoring project covering 220 countries, which has already accumulated tens of terabytes of audio data of spoken conversations and music. 
 
-Applying cutting-edge machine learning tools to this vast library, including music information retrieval, natural language processing, and social network analysis,
-my collaborators and I sought to characterise the global history of popular music through a data-driven approach.
+Applying cutting-edge machine learning tools to this vast library, including music information retrieval, natural language processing, and social network analysis, my collaborators and I sought to characterise the global history of popular music through a data-driven approach.

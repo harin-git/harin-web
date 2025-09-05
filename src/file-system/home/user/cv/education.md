@@ -4,8 +4,8 @@
 
 # Education
 
-## *PhD candidate*
-### • Oct 2020 — Present
+## *PhD*
+### • Oct 2020 — Sep 2025
 Max Planck Institute for Human Cognitive and Brain Sciences
 Leipzig, Germany
 

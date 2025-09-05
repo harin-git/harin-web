@@ -2,9 +2,9 @@
 
 
 
-# Publication
+# Selected Publications
 
-*Lee, H.*, Jacoby, N., Hennequin, R., & Moussallam, M. (2024). Why cities vary in their cultural diversity. In review.
+ *Lee, H.*, Jacoby, N., Hennequin, R., & Moussallam, M. (2025). Mechanisms of cultural diversity in urban populations. Nature Communications, 16(1), 5192.
 
 
 
