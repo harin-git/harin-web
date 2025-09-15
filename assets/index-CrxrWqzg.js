@@ -3558,7 +3558,7 @@ ${a.name}:not a file`);return}s(a.data,!0)}}}function Iv(s,e){const t=Fi(),n={na
 ${n.name} – ${n.short}`);return}if(r.length===0){s(`
 Missing file name`);return}const a=t.make(e.p,r[0],"file");a==="bad_args"?s(`
 Missing file name`):a==="bad_path"&&s(`
-No such file or directory`)}}}const Al={1:{name:"Deezer",url:"https://www.deezer.com/en/album/437597977"},2:{name:"Spotify",url:"https://open.spotify.com/album/2BUL6IneY4Tx9gpRvNwOYM"},3:{name:"Apple Music",url:"https://music.apple.com/us/album/youth/1683998057"},4:{name:"Youtube Music",url:"https://music.youtube.com/playlist?list=OLAK5uy_ln2QAQ-XArGbe4ZiYborPVjY_S7yAsh_U"}},Dv=(s,e)=>({app:(t,n)=>{const i=t[0];if(!i){s(`
+No such file or directory`)}}}const Al={1:{name:"Deezer",url:"https://www.deezer.com/en/album/757703191"},2:{name:"Spotify",url:"https://open.spotify.com/track/4EEZet1xWj5vR53oGxhK0o?si=347557f5cc7d46ab"},3:{name:"Apple Music",url:"https://music.apple.com/us/album/when-hate-is-loud-love-must-be-louder-single/1814773027"},4:{name:"Youtube Music",url:"https://youtu.be/KkBUixM0vu8"}},Dv=(s,e)=>({app:(t,n)=>{const i=t[0];if(!i){s(`
 Please select your music service:`),s(`
 [1] Deezer`),s(`
 [2] Spotify`),s(`
