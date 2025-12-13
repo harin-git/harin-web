@@ -3335,8 +3335,7 @@ void main()
 #  *I'm Harin*
 
 ##   Cognitive Scientist
-###   ~/University_of_Cambridge/
-###   Cambridge/UK
+###   ~/Cambridge/UK
 
 
 
