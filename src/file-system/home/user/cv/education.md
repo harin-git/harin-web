@@ -11,7 +11,7 @@ Leipzig, Germany
 
 
 ## *Visiting Researcher*
-### • Dec 2020 — Present
+### • Dec 2020 — Sep 2025
 Max Planck Institute for Empirical Aesthetics
 Frankfurt am Main, Germany
 

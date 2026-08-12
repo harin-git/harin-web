@@ -4,19 +4,27 @@
 
 # Selected Publications
 
+ *Lee, H.*, Polak, R., Anglada-Tort, M., Schönwiesner, M., Park, M., & Jacoby, N. (2026). Do Melody and Rhythm Coevolve? Proceedings of the Annual Meeting of the Cognitive Science Society (CogSci), 48(0).
+
+
+
+ van Rijn, P., Sun, Y., *Lee, H.*, Marjieh, R., Sucholutsky, I., Lanzarini, F., André, E., & Jacoby, N. (2026). One test, many tongues: Surveying language proficiency across the globe. Proceedings of the National Academy of Sciences (PNAS), 123(13), e2420179123.
+
+
+
  *Lee, H.*, Jacoby, N., Hennequin, R., & Moussallam, M. (2025). Mechanisms of cultural diversity in urban populations. Nature Communications, 16(1), 5192.
 
 
 
- *Lee, H.*, Anglada-Tort, M., Sobchuk, O., Rijn, P. van, Schönwiesner, M., Tchernichovski, O., Park, M., & Jacoby, N. (2024). Rapid reshaping of cultural boundaries during war across 1,423 cities. In review.
+ *Lee, H.*, Çelen, E., Harrison, P. M. C., Anglada-Tort, M., van Rijn, P., Park, M., Schönwiesner, M., & Jacoby, N. (2025). GlobalMood: A cross-cultural benchmark for music emotion recognition. Proceedings of the International Society for Music Information Retrieval Conference (ISMIR 2025).
 
 
 
- van Rijn, P., Sun, Y., *Lee, H.*, Marjieh, R., Sucholutsky, I., Lanzarini, F., André, E., Jacoby, N. Evaluating Language Proficiency in 35 languages across 35 countries. In review.
+ Marjieh, R., van Rijn, P., Sucholutsky, I., *Lee, H.*, Jacoby, N., & Griffiths, T. L. (2025). Characterizing the Large-Scale Structure of Multimodal Semantic Networks. Cognitive Science, 49(10), e70131.
 
 
 
- Marjieh, R., Rijn, P. van, Sucholutsky, I., *Lee, H.*, Jacoby, N., & Griffiths, T. L. (2024). Characterizing the large-scale structure of grounded semantic networks. In review.
+ *Lee, H.*, Anglada-Tort, M., Sobchuk, O., Rijn, P. van, Schönwiesner, M., Tchernichovski, O., Park, M., & Jacoby, N. Rapid reshaping of cultural boundaries during war. In review.
 
 
 

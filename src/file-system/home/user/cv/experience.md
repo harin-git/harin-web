@@ -4,6 +4,15 @@
 
 # Experience
 
+## *Junior Research Fellow*
+### • Oct 2025 — Present
+King's College, University of Cambridge
+Co-direct Music, Cognition and Culture (MCC) group
+Centre for Music and Science
+Cambridge, UK
+
+
+
 ## *Research Intern*
 ### • May 2023 — Nov 2023
 Deezer Research
